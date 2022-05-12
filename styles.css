@@ -1,38 +1,65 @@
-
-*{
-  box-sizing: border-box;
+div {
+  padding: 16px;
 }
 
-.first{
-  margin: 50px;
-  background-color: forestgreen;
-  width: 100px;
-  height: 50px;
-  border-radius: 16px;
+.child,
+.parent {
+  border: 2px solid black;
 }
 
-.second{
-  margin: 50px;
-  width: 100px;
-  height: 50px;
-  border-radius: 100%;
- background-color: darkmagenta;
+.child {
+  position: absolute;
+  top: 90px;
+  right: 40px;
 }
 
-.third{
-  background-color: aquamarine;
-  margin: 50px;
+.parent {
+  width: 300px;
+  height: 100px;
+  background-color: yellowgreen;
+}
+
+.child {
+  background: yellow;
+  position: absolute;
+}
+
+.tip {
+  opacity: 1;
+  background-color: whitesmoke;
+  padding: 0 8px;
+}
+
+.green {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
-  
+  background: green;
+  float: left;
 }
 
-.fourth{
-  width: 50px;
-  height: 50px;
-  margin: 50px;
-  border: 50px solid transparent;
-  border-top-color: brown;
+.container {
+  height: 2000px;
+}
+
+[class="parent static-parent"]{
+  position:static;
+}
+
+[class="parent relative-parent"]{
+  position: relative;
+  bottom: 20px;
+  right: 50px;
+}
+
+[class="parent absolute-parent"]{
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+
+[class="parent fixed-parent"]{
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
 }
 
