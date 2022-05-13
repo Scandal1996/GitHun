@@ -11,73 +11,103 @@
     />
   </head>
 <style>
+ul[class],
+ol[class] {
+  list-style: none;
+}
 
-  *{
-    box-sizing: border-box;
-  }
-  
-  .header{
-    background-color: darkturquoise;
-    height: 60px;
-    position: fixed;
-    width: 100%;
-    z-index: 3;
-  }
+.header {
+  position: fixed;
+  background-color: darkturquoise;
+  height: 40px;
+  width: 100%;
+  z-index: 1;
+}
 
-  nav{
-    height: 40px;
-  }
-
-  li{
-    padding-left: 16px;
-    color: darkturquoise;
-    float: left;
-  }
-
-  li span{
-  
-    color: white;
-    font-size: larger;  
-  }
-
-  .content{
-    background-color: beige;
-    height: 5000px ;
-  }
-
-  div[class="head"]{
-  background-color: aquamarine;
-  width: 200px;
-  height: 200px;
+.navigation {
   position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  top: 50%;
-  }
+  top: -16px;
+}
 
-  div[class="ear ear_right"]{
-    
-  }
+.nav-list {
+  display: flex;
+}
+
+.nav-item {
+
+  height: 40px;
+  line-height: 2.5em;
+  color: white;
+  margin-left: 16px;
+}
+
+.content {
+  background-color: beige;
+  height: 5000px;
+}
+
+.head {
+  left: calc((100% - 200px) / 2);
+  top: calc((100% - 200px) / 2);
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  background-color: aquamarine;
+}
+
+.ear {
+  height: 60px;
+  width: 40px;
+  background-color: brown;
+  position: relative;
+  bottom: 60px;
+}
+
+.eye {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: grey;
+  margin-top: 80px;
+}
+
+.ear_right {
+  float: right;
+  left: 40px;
+}
+
+.ear_left {
+  float: left;
+  right: 40px;
+}
+
+.eye_right {
+  float: right;
+}
+
+.eye_left {
+  float: left;
+}
 
 </style>
-  <body>
-    <header class="header">
-      <nav class="navigation">
-        <ul class="nav-list">
-          <li> <span class="nav-item">Home</span></li>
-          <li><span class="nav-item">Products</span></li>
-          <li><span class="nav-item">Contacts</span></li>
-        </ul>
-      </nav>
-    </header>
-    <main class="content">
-      <div class="head">
-        <div class="ear ear_right"></div>
-        <div class="ear ear_left"></div>
-        <div class="eye eye_right"></div>
-        <div class="eye eye_left"></div>
-      </div>
-    </main>
-  </body>
+<body>
+  <header class="header">
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li class="nav-item">Home</li>
+        <li class="nav-item">Products</li>
+        <li class="nav-item">Contacts</li>
+      </ul>
+    </nav>
+  </header>
+  <main class="content">
+    <div class="head">
+      <div class="ear ear_right"></div>
+      <div class="ear ear_left"></div>
+      <div class="eye eye_right"></div>
+      <div class="eye eye_left"></div>
+    </div>
+  </main>
+</body>
 </html>
