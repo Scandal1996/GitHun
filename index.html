@@ -9,16 +9,66 @@
       integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
+<style>
+
+  *{
+    box-sizing: border-box;
+  }
+  
+  .header{
+    background-color: darkturquoise;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+  }
+
+  nav{
+    height: 40px;
+  }
+
+  li{
+    padding-left: 16px;
+    color: darkturquoise;
+    float: left;
+  }
+
+  li span{
+  
+    color: white;
+    font-size: larger;  
+  }
+
+  .content{
+    background-color: beige;
+    height: 5000px ;
+  }
+
+  div[class="head"]{
+  background-color: aquamarine;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 50%;
+  }
+
+  div[class="ear ear_right"]{
+    
+  }
+
+</style>
   <body>
     <header class="header">
       <nav class="navigation">
-        
-          <div class="nav-item">Home</div>
-          <div class="nav-item">Products</div>
-          <div class="nav-item">Contacts</div>
-       
+        <ul class="nav-list">
+          <li> <span class="nav-item">Home</span></li>
+          <li><span class="nav-item">Products</span></li>
+          <li><span class="nav-item">Contacts</span></li>
+        </ul>
       </nav>
     </header>
     <main class="content">
@@ -31,4 +81,3 @@
     </main>
   </body>
 </html>
-
