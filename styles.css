@@ -23,9 +23,10 @@
 }
 
 .navigation{
-  margin: 0;
+  text-align: left;
   display: flex;
   list-style-type: none;
+  padding: 0;
 }
 
 .first{
@@ -51,20 +52,27 @@
   background-color: grey;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  
   width: 200px;
 }
 
 .h22{
   margin: 16px;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  padding: auto;
+  flex-direction: column;
 }
 
 .nav2{
-  margin-right: 111px;
+  display: flex;
+  padding: 0;
+  flex-direction: column;
 }
 
 .li2{
   height: 40px;
-  
+  margin-left: 16px;
   list-style-type: none;
 }
