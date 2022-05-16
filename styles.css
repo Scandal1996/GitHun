@@ -1,28 +1,13 @@
 
-body {
-  display: flex;
-  box-sizing: border-box;
-}
-
-div{
-  height: 100px;
-  width: 150px;
+.dropdown{
   margin: 16px;
-  background-color: beige;
 }
 
-.visible-text{
-  visibility: visible;
-}
-
-.cropped{
-  overflow: hidden;
-}
-
-.both-scrolls{
-  overflow: scroll;
-}
-
-.vertical-scroll{
-  overflow: auto;
+.menu-button{
+  padding: 16px;
+  background-color: darkgreen;
+  opacity: 0.8;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
 }
