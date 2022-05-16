@@ -34,6 +34,10 @@
   cursor: pointer;
 }
 
+.dropdown:hover .menu-item{
+  background-color: ghostwhite;
+}
+
 .menu-item{
   background-color: lightcyan;
   padding: 16px;
