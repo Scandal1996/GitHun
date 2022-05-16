@@ -1,50 +1,8 @@
-*{
-  box-sizing: border-box;
-}
-.dropdown{
-  margin: 16px;
-  display: inline-block;
-  
+
+.thumb{
+  margin: 8px;
 }
 
-.menu-button{
-  display: block;
-  padding: 16px;
-  background-color: darkgreen;
-  opacity: 0.8;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-  top: 73px;
-}
-
-.menu-list{
-  
-  top: 66px;
-  display: none;
-  position: absolute;
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-  background-color: lightcyan;
-  color: black;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-  min-width: 120px;
-  z-index: 1;
-  cursor: pointer;
-}
-
-.menu-item{
-  display: block;
-  background-color: lightcyan;
-  padding: 16px;
-  color: black;
-}
-
-.dropdown:hover .menu-list{
-  display: block;
-}
-
-.dropdown:hover .menu-button{
-  opacity: 1;
+.gallery{
+  cursor: all-scroll;
 }
