@@ -11,7 +11,7 @@
 .menu-button{
   padding: 16px;
   background-color: darkgreen;
-  opacity: 0.8;
+
   color: white;
   font-size: 16px;
   cursor: pointer;
@@ -19,6 +19,7 @@
 }
 
 .menu-list{
+  opacity: 0.8;
   top: 66px;
   display: none;
   position: absolute;
