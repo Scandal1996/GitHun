@@ -1,12 +1,14 @@
 
 .text{
   margin: 16px;
+  margin-bottom: 8px;
   text-decoration:underline 1px dotted black;
 }
 
 .tooltip{
   background-color: gray;
   color: white;
+  margin-left: 16px;
   padding: 8px;
-  bottom: -40px;
+  border-radius: 4px;
 }
