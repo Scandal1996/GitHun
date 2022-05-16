@@ -6,6 +6,7 @@
 
 .articles-list{
   display: flex;
+  flex-wrap: wrap;
 }
 
 
@@ -20,6 +21,6 @@
   padding: 16px;
   flex-basis: 300px;
   flex-grow: 1;
-  flex-shrink: 1;
+
   
 }
