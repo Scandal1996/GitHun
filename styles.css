@@ -1,11 +1,11 @@
 
 .thumb{
-
+  overflow:scroll hidden;
   margin: 8px;
 }
 
 .gallery{
-  overflow:scroll hidden;
+  
   display: flex;
   position: fixed;
   cursor: all-scroll;
