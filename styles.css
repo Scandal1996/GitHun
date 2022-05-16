@@ -1,10 +1,11 @@
 
 .thumb{
+
   margin: 8px;
 }
 
 .gallery{
-  overflow-y: hidden;
+  overflow: scroll;
   display: flex;
   position: fixed;
   cursor: all-scroll;
