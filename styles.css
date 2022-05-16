@@ -1,26 +1,18 @@
 
-*{
-  box-sizing: border-box;
-  
+div > div {
+  width: 100px;
+  height: 100px;
+  background: coral;
 }
 
-.articles-list{
-  display: flex;
-  flex-wrap: wrap;
+div[class="none"]{
+  display: none;
 }
 
-
-.header{
-  display: flex;
-  justify-content: center;
+div[class="hiddnen"]{
+  visibility: hidden;
 }
 
-.article{
-  background-color: bisque;
-  margin: 8px;
-  padding: 16px;
-  flex-basis: 300px;
-  flex-grow: 1;
-
-  
+div[class="visible"]{
+  visibility: visible;
 }
