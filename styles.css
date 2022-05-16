@@ -2,8 +2,8 @@
   box-sizing: border-box;
 }
 .dropdown{
-  margin: 16px;
   padding: 16px;
+  margin-top: 16px;
   display: inline-block;
   
 }
