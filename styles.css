@@ -35,7 +35,9 @@
 }
 
 .menu-item{
+  background-color: lightcyan;
   padding: 16px;
+  color: black;
 }
 
 .dropdown:hover .menu-list{
