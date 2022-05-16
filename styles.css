@@ -4,6 +4,7 @@
 }
 
 .gallery{
+  overflow-y: hidden;
   display: flex;
   position: fixed;
   cursor: all-scroll;
