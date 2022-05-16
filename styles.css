@@ -1,18 +1,28 @@
 
-div > div {
-  width: 100px;
+body {
+  display: flex;
+  box-sizing: border-box;
+}
+
+div{
   height: 100px;
-  background: coral;
+  width: 150px;
+  margin: 16px;
+  background-color: beige;
 }
 
-div[class="none"]{
-  display: none;
-}
-
-div[class="hiddnen"]{
-  visibility: hidden;
-}
-
-div[class="visible"]{
+.visible-text{
   visibility: visible;
+}
+
+.cropped{
+  overflow: hidden;
+}
+
+.both-scrolls{
+  overflow: scroll;
+}
+
+.vertical-scroll{
+  overflow: auto;
 }
