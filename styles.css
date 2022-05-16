@@ -1,12 +1,12 @@
 
-
-.thumb{
-  max-width: 225px;
-  margin: 8px;
+.text{
+  margin: 16px;
+  text-decoration:underline 1px dotted black;
 }
 
-.gallery{
-  overflow-x: auto;
-  display: flex;
-  cursor: all-scroll;
+.tooltip{
+  background-color: gray;
+  color: white;
+  padding: 8px;
+  bottom: -40px;
 }
