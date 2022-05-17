@@ -1,13 +1,14 @@
 
-
+.gallery{
+}
 
 .image{
   display: inline-block;
   height: 200px;
   width: 200px;
+  margin: 18px;
   background-size:contain;
   background-repeat: no-repeat;
-  margin: 16px;
   border: 1px dotted gray;
   background-position: center;
 }
