@@ -1,26 +1,13 @@
 
-body{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
-.header{
-}
-
-.firstH{
-  font-size: 74px;
-  text-align: center;
-  margin: auto;
-  width: 50%;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-.div{
-  height: 200px;
-  background-color: coral;
+.mountains{
+  height: 500px;
+  width: 300px;
+  font-size: 32px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg);
+  background-position: center;
   color: white;
-  text-transform: uppercase;
+  padding-top: 32px;
   text-align: center;
-  line-height: 200px;
+  font-weight: 700;
 }
