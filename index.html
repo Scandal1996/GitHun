@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>One more gallery</title>
+    <title>Наследование в CSS</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -12,7 +12,21 @@
     <link rel="stylesheet" href="styles.css">
   </head>
 
-  <body class="background">
-   
+  <body>
+    <h1>Наследование в CSS</h1>
+    <p>
+      Наследование в CSS – это механизм, с помощью которого некоторые значения свойств передаются от
+      элемента его потомкам.
+    </p>
+    <section>
+      <h2>Не наследуются:</h2>
+      <ul class="properties-list">
+        <li class="properties-list__item">margins / paddings</li>
+        <li class="properties-list__item">borders</li>
+        <li class="properties-list__item">width / height</li>
+        <li class="properties-list__item">background</li>
+        <li class="properties-list__item">...</li>
+      </ul>
+    </section>
   </body>
 </html>
