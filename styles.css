@@ -1,41 +1,17 @@
-*{
-  box-sizing: border-box;
+
+.list{
+  list-style-type: none;
+  font-size: 1.5em;
 }
 
-html{
-  font-size: 18px;
+.first{
+  text-decoration: red overline;
 }
 
-body{
-  font-family: Roboto, sans-serif ;
-  font-weight: 400;
+.second{
+  text-decoration: line-through;
 }
 
-section{
-  margin: 32px;
-}
-
-h1{
-  text-transform: uppercase;
-  word-spacing: 20px;
-  text-align: center;
-}
-
-p{
- line-height: 28px;
-}
-
-.HTML{
-  letter-spacing: 3px;
-  font-size: 24px;
-  opacity: 0.8;
-  text-decoration: underline;
-}
-
-.em{
-  color: gray;
-}
-
-.url{
-  text-decoration: none;
+.third{
+  text-decoration: green underline;
 }
