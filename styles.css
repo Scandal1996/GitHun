@@ -11,4 +11,6 @@
   text-align: center;
   font-weight: 700;
   background-size: cover;
+  background-repeat: no-repeat ;
+  box-sizing: border-box;
 }
