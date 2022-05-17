@@ -9,6 +9,7 @@ html {
 }
 
 .properties-list__item{
+  line-height: 30px;
   font-size: 24px;
   padding: 8px;
 }
