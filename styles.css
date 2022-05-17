@@ -1,9 +1,11 @@
 
 .gallery{
+  display: flex;
+  flex-direction: row;
 }
 
 .image{
-  display: inline-block;
+  
   height: 200px;
   width: 200px;
   margin: 18px;
