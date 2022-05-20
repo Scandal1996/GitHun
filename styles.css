@@ -1,8 +1,27 @@
 
-.over{
-  margin: 16px;
+
+input[type="checkbox"]{
+  visibility: hidden;
+  width: 0;
+  height: 0;
 }
 
-.choose-gender{
-  margin: 16px;
+.checkmark{
+  width: 25px;
+  height: 25px;
+  background-color: #d3d3d3;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.checkbox{
+  padding-left: 30px;
+  position: relative;
+  font-size: 24px;
+}
+
+.checbox input:checked + .checkmark{
+  background-color: #006400;
 }
