@@ -1,78 +1,21 @@
-
-
-html {
+*{
   box-sizing: border-box;
-  background-color: bisque;
 }
 
-.page {
-  background-color: bisque;
+.obolochka{
+  margin-left: 32px;
+  padding: 0px;
 }
 
-.form-title {
-  text-transform: uppercase;
+.languages{
+  margin-left: 32px;
+  padding: 0;
 }
 
-.form-input {
-  margin-bottom: 8px;
+input{
+  margin: 8px;
 }
 
-.form-label {
-  margin-bottom: 8px;
-}
-
-label input {
-  padding-bottom: 8px;
-}
-
-input {
-  width: 100%;
-  line-height: 32px;
-  border-radius: 4px;
-  border: 1px solid #808080;
-  margin-top: 4px;
-  outline: none;
-}
-
-.submit-button {
-  width: 100%;
-  line-height: 32px;
-  background-color: #FF7F50;
-  margin-top: 16px;
-  text-transform: uppercase;
-  border-radius: 4px;
-  color: white;
-}
-
-h1 {
-  text-align: center;
-  width: 100%;
-}
-
-form {
-  display: inline-block;
-  position: absolute;
-  background-color: aqua;
-  font-size: 16px;
-  font-family: monospace, sans-serif;
-  width: 300px;
-  padding: 16px;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-}
-
-.form-control {
-  width: 300px;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-
-
-input:invalid{
-  border: 3px solid red;
+select{
+  margin-left: 8px;
 }
