@@ -34,6 +34,69 @@ input {
   background-color: #FF7F50;
   margin-top: 16px;
   text-transform: uppercase;
+  color: white;
+  border: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  position: absolute;
+  background-color: aqua;
+  font-size: 16px;
+  font-family: monospace;
+  width: 300px;
+  padding: 16px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: bisque;
+}
+
+.page {
+  background-color: bisque;
+}
+
+.form-title {
+  text-transform: uppercase;
+}
+
+.form-input {
+  margin-bottom: 8px;
+}
+
+form-label {
+  margin-bottom: 4px;
+}
+
+input {
+  width: 100%;
+  line-height: 32px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 4px;
+  outline: none;
+}
+
+.submit-button {
+  width: 100%;
+  line-height: 32px;
+  background-color: #FF7F50;
+  margin-top: 16px;
+  text-transform: uppercase;
   border-radius: 4px;
   color: white;
 }
@@ -50,7 +113,7 @@ form {
   font-family: monospace, sans-serif;
   width: 300px;
   padding: 16px;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
 main {
@@ -61,6 +124,7 @@ main {
   min-height: 100vh;
 }
 
-.submit-button input:required + input {
- border: 3px solid #ff0000; 
+
+input:invalid {
+  border: 1px solid red;
 }
