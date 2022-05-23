@@ -1,32 +1,44 @@
+*{
+    box-sizing: border-box;
+}
 
-body {
+.rect{
+    width: 100px;
+    height: 100px;
+    margin: 16px;
+    padding: 32px;
+    background-color: coral;
+    opacity: 0.5;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    transition-property: width;
+    transition-duration: 2s;
 }
 
-
-i [class="fa fa-battery-full"]{
-    justify-content: space-around;
-    font-size: 16px;
+.rect:hover{
+    width: 100%;
+    opacity: 1;
 }
 
-i[class="fa fa-battery-three-quarters"]{ 
- font-size: 32px;
+[class="rect linear"]:hover{
+    transition-timing-function: linear;
 }
 
-i[class="fa fa-battery-half"]{
-    font-size: 64px;
+[class="rect ease"]:hover{
+    transition-timing-function:ease;
 }
 
-i[class="fa fa-battery-quarter"]{
-    font-size: 128px;
+[class="rect ease-in"]:hover {
+    transition-timing-function: ease-in;
 }
 
-i[class="fa fa-battery-empty"]{
-    font-size: 256px;
+[class="rect ease-out"]:hover {
+    transition-timing-function: ease-out;
 }
 
-
+[class="rect ease-in-out"]{
+    transition-timing-function: ease-in-out;
+}
 
 
 
