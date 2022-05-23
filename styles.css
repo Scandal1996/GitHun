@@ -10,6 +10,7 @@ caption{
  td,th{
     padding-right: 4px;
     padding-top: 0;
+    padding-bottom: 0;
     line-height: 40px;
     text-align: right;
 }
