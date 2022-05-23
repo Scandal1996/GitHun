@@ -1,34 +1,23 @@
 
-*{
-    box-sizing: border-box;
+.row {
+    display: flex;
 }
 
-table{
-    margin: 16px;
-    border: 1px solid black;
-    border-collapse:collapse;
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: auto;
 }
 
-td{
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    margin: 0;
+.small-bird{
+    height: 64px;
+    width: 64px;
 }
 
-.black{
-    height: 50px;
-    width: 50px;
-    background-color: black;
-    border: 1px solid black;
-    padding: 0px;
+.large-bird{
+    height: 320px;
+    width: 320px;
 }
 
-.white{
-    height: 50px;
-    width: 50px;
-    background-color: white;
-    border: 1px solid black;
-    padding: 0px;
-}
 
