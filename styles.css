@@ -3,6 +3,10 @@ table, td, th{
     border-collapse: collapse;
 }
 
+tr{
+    line-height: 40px;
+}
+
 caption{
     margin-bottom: 8px;
 }
@@ -10,7 +14,6 @@ caption{
  td,th{
     padding: 0;
     padding-right: 4px;
-    line-height: 40px;
     text-align: right;
 }
 
@@ -35,6 +38,7 @@ tbody > tr:nth-child(odd){
 
 div{
     overflow-x: auto;
+    padding: 0;
 }
 
 tbody > tr:hover{
