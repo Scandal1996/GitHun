@@ -1,36 +1,29 @@
 
-button{
-    margin: 64px;
+body {
+    display: flex;
+    justify-content: space-around;
 }
 
-.custom-button {
-    width: 200px;
-    height: 50px;
-    background-color: coral;
-    color: white;
-    border-radius: 4px;
-    text-transform: uppercase;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
-    border: none;
-    cursor: pointer;
-    line-height: 50px;
+
+i [class="fas fa-battery-full"]{
+    justify-content: space-around;
+    font-size: 16px;
 }
 
-.custom-button:hover{
-    color: darkcyan;
+i[class="fas fa-battery-three-quarters"]{ 
+ font-size: 32px;
 }
 
-.custom-button:hover > .bird-icon {
-    fill: green;
+i[class="fas fa-battery-half"]{
+    font-size: 64px;
 }
 
-.bird-icon {
-    width: 32px;
-    height: 32px;
-    vertical-align: middle;
-    fill: white;
-    background-color: none;
+i[class="fas fa-battery-quarter"]{
+    font-size: 128px;
+}
+
+i[class="fas fa-battery-empty"]{
+    font-size: 256px;
 }
 
 
