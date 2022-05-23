@@ -9,13 +9,8 @@ caption{
 
  td,th{
     line-height: 40px;
-    padding: 4px;
+    
     text-align: right;
-}
-
-tbody td:hover{
-    color: white;
-    background-color: #aaa;
 }
 
 table{
@@ -40,3 +35,7 @@ div{
     overflow-y: auto;
 }
 
+tbody > tr:hover{
+    color: white;
+    background-color: #aaa;
+}
