@@ -3,7 +3,7 @@
 }
 
 .container{
-    margin: 16px;
+    margin: 32px;
 }
 
 .rect{
@@ -16,7 +16,7 @@
     align-items: center;
     transition-property: width;
     transition-duration: 2s;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 .rect:hover{
