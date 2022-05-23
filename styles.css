@@ -4,7 +4,7 @@ table, td, th{
 }
 
 tr{
-    line-height: 40px;
+    height: 40px;
 }
 
 caption{
