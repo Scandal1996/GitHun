@@ -2,15 +2,19 @@
     box-sizing: border-box;
 }
 
+.container{
+    margin: 16px;
+}
+
 .rect{
+    display: flex;
     width: 100px;
     height: 100px;
-    margin: 16px;
-    padding: 32px;
+    margin-top: 16px;
     background-color: coral;
     opacity: 0.5;
-    display: flex;
-    justify-content: center;
+    justify-content: center; 
+    align-items: center;
     transition-property: width;
     transition-duration: 2s;
 }
