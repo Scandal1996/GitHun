@@ -29,6 +29,8 @@ button{
     width: 32px;
     height: 32px;
     vertical-align: middle;
+    fill: white;
+    background-color: none;
 }
 
 
