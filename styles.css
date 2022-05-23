@@ -2,46 +2,61 @@
     box-sizing: border-box;
 }
 
-.square{
-    height: 100px;
-    width: 100px;
-    background-color: coral;
+.rect{
+    background-color: black;
+    width: 10px;
+    height: 4px;
     position: absolute;
-    animation: move 4s;
-    animation-iteration-count: 2;
-    animation-direction: alternate;
+    border-radius: 2px;
+    animation: moving 2s;
+    animation-iteration-count:infinite ;
 }
 
-@keyframes move {
-    0%{
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+@keyframes moving {
+    0% {
         left: 0;
-        background-color: coral;
+        opacity: 1;
     }
 
-    25%{
-        top: 0;
-        left: 300px;
-        background-color: cornflowerblue;
-    }
-
-    50%{
-        left: 300px;
-        top: 300px;
-        background-color: aqua;
-    }
-
-    75%{
-        left: 0px;
-        top: 300px;
-        background-color: yellowgreen;
+    50% {
+        left: 70px;
     }
 
     100%{
         left: 0;
-        top: 0;
-        background-color: coral;
+        opacity: 1;
+    }
+}
+
+@keyframes blinking {
+    0% {
+        opacity: 0;
     }
 
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.spinner-text{
+    font-family: monospace;
+    font-size: 16px;
+    animation: blinking 2s steps(5, start) infinite;
+}
+
+.spinner{
+    width: 50vw;
+    height: 50vh;
 }
 
 
