@@ -8,7 +8,7 @@ caption{
 }
 
  td,th{
-    
+    padding-top: 4px;
     line-height: 40px;
     text-align: right;
 }
