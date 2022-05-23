@@ -2,46 +2,46 @@
     box-sizing: border-box;
 }
 
-.container{
-    margin: 32px;
-}
-
-.rect{
-    display: flex;
-    width: 100px;
+.square{
     height: 100px;
+    width: 100px;
     background-color: coral;
-    opacity: 0.5;
-    justify-content: center; 
-    align-items: center;
-    transition-property: width;
-    transition-duration: 2s;
-    margin-bottom: 16px;
+    position: absolute;
+    animation: move 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
 }
 
-.rect:hover{
-    width: 100%;
-    opacity: 1;
-}
+@keyframes move {
+    0%{
+        left: 0;
+        background-color: coral;
+    }
 
-[class="rect linear"]:hover{
-    transition-timing-function: linear;
-}
+    25%{
+        top: 0;
+        left: 300px;
+        background-color: cornflowerblue;
+    }
 
-[class="rect ease"]:hover{
-    transition-timing-function:ease;
-}
+    50%{
+        left: 300px;
+        top: 300px;
+        background-color: aqua;
+    }
 
-[class="rect ease-in"]:hover {
-    transition-timing-function: ease-in;
-}
+    75%{
+        left: 0px;
+        top: 300px;
+        background-color: yellowgreen;
+    }
 
-[class="rect ease-out"]:hover {
-    transition-timing-function: ease-out;
-}
+    100%{
+        left: 0;
+        top: 0;
+        background-color: coral;
+    }
 
-[class="rect ease-in-out"]{
-    transition-timing-function: ease-in-out;
 }
 
 
