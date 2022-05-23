@@ -16,7 +16,7 @@
     align-items: center;
     transition-property: width;
     transition-duration: 2s;
-    margin-bottom: 16px;
+    margin-bottom: 15px;
 }
 
 .rect:hover{
