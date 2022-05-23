@@ -4,12 +4,12 @@ table, td, th{
 }
 
 caption{
-    margin: 8px;
+    margin-bottom: 8px;
 }
 
  td,th{
-    line-height: 40px;
     
+    line-height: 40px;
     text-align: right;
 }
 
@@ -32,7 +32,7 @@ tbody > tr:nth-child(odd){
 }
 
 div{
-    overflow-y: auto;
+    overflow-x: auto;
 }
 
 tbody > tr:hover{
